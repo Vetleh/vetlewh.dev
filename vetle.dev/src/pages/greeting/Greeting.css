@@ -1,0 +1,30 @@
+.wrapper {
+  max-height: 100vh;
+  min-height: 100vh;
+  position: relative;
+}
+
+.profile-pic {
+  height: 50vh;
+
+}
+
+.greeting {
+    margin: 10vh 10vw 0rem 10vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.links{
+    text-align: left;
+}
+
+ul {
+  margin-left: 1rem;
+  list-style-image: url("../../images/right-arrow-test.png");
+}
+
+li {
+  padding-left: 10px;
+  margin-top: 10px;
+}
