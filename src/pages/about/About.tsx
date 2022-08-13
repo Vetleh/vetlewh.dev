@@ -10,7 +10,7 @@ function About() {
 			<OverPack playScale={0.1}>
 				<QueueAnim
 					key='queue'
-					delay={500}
+					delay={100}
 					className='queue-simple intrests'
 					type={'left'}
 					duration={2000}>
