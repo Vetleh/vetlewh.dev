@@ -5,7 +5,7 @@ import QueueAnim from 'rc-queue-anim';
 
 function TimelineComponent() {
 	return (
-		<OverPack playScale={0.1}>
+		<OverPack playScale={0}>
 			<QueueAnim key='queue' delay={100} type={'left'} duration={2000}>
 				<div key={'a'}>
 					<Timeline>
