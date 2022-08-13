@@ -11,15 +11,15 @@ function TimelineComponent() {
 					<Timeline>
 						<Event
 							interval={'2018 – 2021'}
-							title={'Dataingeniør'}
-							subtitle={'Bachelor - NTNU - Trondheim'}></Event>
+							title={'Computer engineer'}
+							subtitle={'B.S - NTNU - Trondheim'}></Event>
 						<Event
 							interval={'2021 – 2023'}
-							title={'Datateknologi'}
-							subtitle={'Master - NTNU - Trondheim'}>
-							<strong>Spesialisering - Algoritmer og datamaskiner:</strong>
-							<br></br> Metoder og teknikker som kan anvendes til å utvikle
-							systemer som krever høy ytelse.
+							title={'Computer science'}
+							subtitle={'M.S - NTNU - Trondheim'}>
+							<strong>Spesialization - Algorithms and computers:</strong>
+							<br></br> Methods and techniques that can be applied to develop
+							high performance systems.
 						</Event>
 					</Timeline>
 				</div>
