@@ -1,0 +1,15 @@
+.arrow {
+    width: 50px;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 10px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    animation-name: bounce;
+    animation-duration: 2s;
+}
+
+
+

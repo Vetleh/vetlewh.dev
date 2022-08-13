@@ -1,0 +1,33 @@
+.wrapper {
+  max-height: 100vh;
+  min-height: 100vh;
+  position: relative;
+}
+
+.profile-pic {
+  height: 50vh;
+}
+
+.sub-header{
+  margin-top: 0px;
+}
+
+.greeting {
+    margin: 25vh 0 0 0;
+    display: grid;
+}
+
+.links{
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul {
+  margin-left: 1rem;
+  list-style-image: url("../../images/right-arrow-test.png");
+}
+
+li {
+  padding-left: 10px;
+  margin-top: 10px;
+}
