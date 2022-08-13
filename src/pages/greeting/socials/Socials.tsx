@@ -12,14 +12,21 @@ function Socials() {
 			className='queue-simple'
 			duration={1000}>
 			<div key={'a'}>
-				<img alt='Link to Github' className='social-image' src={github}></img>
+				<a href='https://github.com/Vetleh/'>
+					<img alt='Link to Github' className='social-image' src={github}></img>
+				</a>
 				<a href='https://www.linkedin.com/in/vetle-harnes-aa1b2a170/'>
 					<img
 						alt='Link to LinkedIn'
 						className='social-image'
 						src={linkedin}></img>
 				</a>
-				<img alt='Send me an email!' className='social-image' src={gmail}></img>
+				<a href='mailto:vetlewh@gmail.com'>
+					<img
+						alt='Send me an email!'
+						className='social-image'
+						src={gmail}></img>
+				</a>
 			</div>
 		</QueueAnim>
 	);

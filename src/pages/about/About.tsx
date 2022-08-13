@@ -6,7 +6,7 @@ import QueueAnim from 'rc-queue-anim';
 
 function About() {
 	return (
-		<div className='about'>
+		<div id='about-section' className='about'>
 			<OverPack playScale={0.1}>
 				<QueueAnim
 					key='queue'

@@ -1,4 +1,5 @@
 import QueueAnim from 'rc-queue-anim';
+import { Link } from 'rc-scroll-anim';
 import Arrow from '../../../images/right-arrow.png';
 import './More.css';
 
@@ -9,7 +10,9 @@ function More() {
 			type={'bottom'}
 			className='queue-simple'
 			duration={1000}>
-			<img key={'a'} className='arrow' src={Arrow}></img>
+			<Link to='about-section'>
+				<img key={'a'} className='arrow' src={Arrow}></img>
+			</Link>
 		</QueueAnim>
 	);
 }
